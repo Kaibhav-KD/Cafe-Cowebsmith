@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 245, 245, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+@layer components {
+  .hero-section {
+    @apply h-screen flex items-center justify-center relative overflow-hidden;
+  }
+  
+  .nav-link {
+    @apply text-gray-700 hover:text-cafe-brown transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-cafe-brown text-white px-6 py-3 rounded-full hover:bg-cafe-gold transition-colors duration-300;
+  }
+} 
