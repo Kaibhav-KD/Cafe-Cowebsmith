@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Delight - Premium Coffee & Tea Experience. Discover our signature drinks and unique cafe atmosphere.">
+    <meta name="keywords" content="cafe, coffee, tea, espresso, matcha, macchiato">
+    <title>Café Delight | Premium Coffee & Tea Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="logo" aria-label="Café Delight Home">
+                    <i class="fas fa-coffee"></i>
+                    <span>Café Delight</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <div class="nav-item">
+                    <a href="#menu" class="nav-link" aria-label="View our menu">
+                        <i class="fas fa-utensils"></i>
+                        <span>Menu</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about" class="nav-link" aria-label="Learn about us">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#gallery" class="nav-link" aria-label="View our gallery">
+                        <i class="fas fa-images"></i>
+                        <span>Gallery</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#events" class="nav-link" aria-label="View our events">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Events</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact" class="nav-link" aria-label="Contact information">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#reservations" class="nav-button" aria-label="Make a reservation">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Reserve</span>
+                    </a>
+                </div>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="menu-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Welcome to Café Delight">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Welcome to Café Delight</h1>
+                <p class="animate-text">Experience the perfect blend of tradition and innovation</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn-primary animate-text" aria-label="Explore our menu">
+                        <i class="fas fa-utensils"></i>
+                        <span>Explore Menu</span>
+                    </a>
+                    <a href="#reservations" class="btn-secondary animate-text" aria-label="Make a reservation">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Book a Table</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" 
+                     alt="Coffee Art" 
+                     loading="lazy"
+                     width="600"
+                     height="400">
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="menu" aria-label="Our premium beverages">
+        <div class="section-header">
+            <h2>Premium Beverages</h2>
+            <p>Indulge in our handcrafted selection of artisanal drinks</p>
+        </div>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd" 
+                         alt="Espresso Delight" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
+                    <div class="product-overlay">
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Espresso Delight</h3>
+                    <p>Rich and bold espresso with a perfect crema</p>
+                    <div class="product-footer">
+                        <span class="price">$4.99</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca" 
+                         alt="Matcha Latte" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
+                    <div class="product-overlay">
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Matcha Latte</h3>
+                    <p>Premium matcha with creamy steamed milk</p>
+                    <div class="product-footer">
+                        <span class="price">$5.99</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESoCM08oJ5oLnpB6opT9lTMyh77wOBlFSpw&s" 
+                         alt="Caramel Macchiato" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
+                    <div class="product-overlay">
+                        <button class="add-to-cart">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Caramel Macchiato</h3>
+                    <p>Espresso with vanilla and caramel</p>
+                    <div class="product-footer">
+                        <span class="price">$5.49</span>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+        <div class="section-header">
+            <h2>Today's Specials</h2>
+            <p>Don't miss out on our exclusive offers</p>
+        </div>
+        <div class="offers-grid">
+            <div class="offer-card">
+                <div class="offer-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div class="offer-content">
+                    <h3>Happy Hour</h3>
+                    <p>2 PM - 5 PM Daily</p>
+                    <p class="highlight">20% off all drinks</p>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="offer-content">
+                    <h3>Weekend Brunch</h3>
+                    <p>Saturday & Sunday</p>
+                    <p class="highlight">Free pastry with any drink</p>
+                </div>
+            </div>
+            <div class="offer-card">
+                <div class="offer-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <div class="offer-content">
+                    <h3>Loyalty Program</h3>
+                    <p>Join our rewards program</p>
+                    <p class="highlight">Earn points with every purchase</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" aria-label="Our story">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24" alt="Cafe Interior">
+                <div class="experience-badge">
+                    <span class="years">5+</span>
+                    <span class="text">Years of Excellence</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Founded in 2024, Café Delight has been serving the finest coffee and tea to our valued customers. Our passion for quality and innovation drives us to create unique experiences for every visitor.</p>
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-coffee"></i>
+                        <h4>Premium Quality</h4>
+                        <p>We source the finest beans from around the world</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <h4>Passionate Team</h4>
+                        <p>Our baristas are trained to perfection</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Sustainable</h4>
+                        <p>We care about our environment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header">
+            <h2>Our Moments</h2>
+            <p>Capturing the essence of Café Delight</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Coffee Beans">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h4>Coffee Beans</h4>
+                        <p>Premium quality selection</p>
+                        <button class="view-more">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkisB4t7GFDoeQipGM7LZe-sReyQi3l4qG0w&s8" alt="Coffee Making">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h4>Coffee Making</h4>
+                        <p>Watch our baristas in action</p>
+                        <button class="view-more">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca" alt="Cafe Interior">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h4>Cafe Interior</h4>
+                        <p>A cozy and inviting atmosphere</p>
+                        <button class="view-more">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24" alt="Barista">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <h4>Barista</h4>
+                        <p>Our skilled baristas</p>
+                        <button class="view-more">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="section-header">
+            <h2>Upcoming Events</h2>
+            <p>Join us for special moments</p>
+        </div>
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="day">15</span>
+                    <span class="month">MAR</span>
+                </div>
+                <div class="event-info">
+                    <h3>Coffee Tasting Workshop</h3>
+                    <p>Learn about different coffee beans and brewing methods</p>
+                    <div class="event-details">
+                        <span><i class="fas fa-clock"></i> 2:00 PM - 4:00 PM</span>
+                        <span><i class="fas fa-users"></i> 20 seats available</span>
+                    </div>
+                    <a href="#" class="btn-secondary">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="day">22</span>
+                    <span class="month">MAR</span>
+                </div>
+                <div class="event-info">
+                    <h3>Live Music Night</h3>
+                    <p>Enjoy live music while sipping your favorite drink</p>
+                    <a href="#" class="btn-secondary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>What Our Customers Say</h2>
+            <p>Real experiences from our valued customers</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The best coffee I've ever had! The atmosphere is perfect for both work and relaxation."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Sarah Johnson</h4>
+                        <span>Regular Customer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"I love the unique flavors and the cozy atmosphere. It's my go-to place for a relaxing coffee break."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Michael Smith</h4>
+                        <span>Regular Customer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The baristas are incredibly friendly and the coffee is always perfect. I'm a regular here!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Emily Davis</h4>
+                        <span>Regular Customer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" aria-label="Contact information">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Visit Us</h4>
+                            <p>123 Coffee Street, City</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Call Us</h4>
+                            <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email Us</h4>
+                            <p><a href="mailto:info@cafedelight.com">info@cafedelight.com</a></p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest offers and events</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit" class="btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservations" aria-label="Make a reservation">
+        <div class="reservation-container">
+            <div class="reservation-header">
+                <h2>Book Your Table</h2>
+                <p>Reserve your spot for a perfect coffee experience</p>
+            </div>
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Friday: 7:00 AM - 10:00 PM</p>
+                            <p>Saturday - Sunday: 8:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Group Bookings</h4>
+                            <p>Special arrangements for groups of 6 or more</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation-form">
+                    <h3>Make a Reservation</h3>
+                    <form id="reservationForm">
+                        <div class="form-group">
+                            <input type="text" id="reservation-name" name="name" placeholder="Your Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="reservation-email" name="email" placeholder="Your Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="reservation-phone" name="phone" placeholder="Your Phone" required>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="reservation-date" name="date" required>
+                                <i class="fas fa-calendar"></i>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" id="reservation-time" name="time" required>
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="reservation-guests" name="guests" required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5 People</option>
+                                <option value="6">6+ People</option>
+                            </select>
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="reservation-notes" name="notes" placeholder="Special Requests"></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-calendar-check"></i>
+                            Book Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Café Delight</h3>
+                <p>Experience the perfect blend of tradition and innovation</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <ul class="hours-list">
+                    <li>
+                        <span>Monday - Friday</span>
+                        <span>7:00 AM - 10:00 PM</span>
+                    </li>
+                    <li>
+                        <span>Saturday - Sunday</span>
+                        <span>8:00 AM - 11:00 PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Café Delight. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
